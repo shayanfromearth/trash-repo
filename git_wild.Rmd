@@ -58,5 +58,8 @@ ggplot(data = diamonds,
 ### to plot, summarize, calculate something simple using the diamonds
 ### dataset.
 
+ggplot(data = diamonds_subset, aes(x = price, y = carat)) +
+  geom_point()
+
 
 ```
