@@ -31,11 +31,6 @@ ggplot(data = diamonds,
 
 diamonds_subset <- diamonds %>% 
   filter(carat >1 | cut =="Ideal")
-
-
-
-sdhksdnlkgnsdkgns
-
 ```
 
 ## STEP 7: Uh oh, merge conflicts!
